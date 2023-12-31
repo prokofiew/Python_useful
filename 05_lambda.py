@@ -21,6 +21,7 @@ print((lambda x,y: x*y)(2,3))
 # and it will apply that function to each item
 
 
+# this is how map function works
 def my_map(my_func, my_iterable):
     result = []
     for item in my_iterable:
